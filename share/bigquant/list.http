@@ -1,0 +1,17 @@
+curl 'https://bigquant.com/bigwebapi/algo_list/share?page=1&limit=1000&order_by=-grade&search=' \
+  -H 'authority: bigquant.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8' \
+  -H 'cache-control: no-cache' \
+  -H 'cookie: _bdid_=b127adeae5af4fa4bfbfa14611fb9e63; Hm_lvt_c58f67ca105d070ca7563b4b14210980=1654745047,1654827121; _gid=GA1.2.1096350624.1655086289; _buid_=0cb6e149b8de6f0aed633c9711c9f7d3; __bqusername=thomas_lau; bqusername=thomas_lau; messages="3f0b6d07dbe1e3c43bdc3dbddcfedb48b62c5195$[[\"__json_message\"\0540\05425\054\"\\u4ee5 Thomas_Lau..\\u8eab\\u4efd\\u6210\\u529f\\u767b\\u5f55\"]]"; bigquantsessionid=e3q5odtr1lh354qzx1h6in0vagnf41l6; __bqssid=4c3108e16fec96e848f723e9770b95f0; __bigquantsessionid=e3q5odtr1lh354qzx1h6in0vagnf41l6; bqaccesstoken="uz6iEuxQNFjNt5VKobakhQ=="; accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBmNDdiZjQ3LWIxMjItNGJkZi1hOTNlLTAyMTg5NzdhMTVlMyIsIm1lbWJlcnNoaXAiOmZhbHNlLCJ0eXBlIjoic2Vzc2lvbiIsImlhdCI6MTY1NTA4NjMyNX0._Xt2wci_B0oyPDldX4SxUVCeMuKP1Mlhoo_idrDTBTQ; jupyterhub-session-id=f87df4f5e7b44f11b45abb1de175ae63; jupyterhub-hub-login="2|1:0|10:1655086325|20:jupyterhub-hub-login|44:MGMwZWIxZTRiYjkyNDY1NjlmZWY4MjZkZGJkMjAzZmI=|c0dc9512d7979f63e5b218c23761cdf3d0549effa549b2d11ff5a78f1de769cd"; _pk_ses.3.bfb6=1; _gat_gtag_UA_124915922_1=1; _pk_id.3.bfb6=110a256344684ccc.1654745034.4.1655172424.1655171884.; Hm_lpvt_c58f67ca105d070ca7563b4b14210980=1655172424; _ga_B58V018K6L=GS1.1.1655171880.4.1.1655172455.0; _ga=GA1.2.470398085.1654745037' \
+  -H 'pragma: no-cache' \
+  -H 'referer: https://bigquant.com/armory/shared' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --compressed
